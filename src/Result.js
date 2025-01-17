@@ -7,21 +7,21 @@ import { useLocation, useNavigate} from 'react-router-dom';
 import Bars from './Bars';
 import { RotatingLines } from 'react-loader-spinner';
 AWS.config.update({
-  accessKeyId: 'AKIA6HM2F4C6GCXFYV52',
-  secretAccessKey: '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',
+  accessKeyId: 'AKIA6HM2F4C6PWG6E76R',
+  secretAccessKey: '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',
   region: 'us-east-1'
 });
 const s3Client = new S3Client({
     region: 'us-east-1',
     credentials: {
-      accessKeyId: 'AKIA6HM2F4C6GCXFYV52',
-      secretAccessKey: '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'
+      accessKeyId: 'AKIA6HM2F4C6PWG6E76R',
+      secretAccessKey: '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'
     }
   });
   
 const transcribeClient = new TranscribeClient({ region: 'us-east-1',credentials: {
-    accessKeyId: 'AKIA6HM2F4C6GCXFYV52',
-    secretAccessKey: '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'
+    accessKeyId: 'AKIA6HM2F4C6PWG6E76R',
+    secretAccessKey: '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'
   } });
 
 function Result() {
