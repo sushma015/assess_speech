@@ -4,8 +4,8 @@ import './App.css';
 import { useNavigate } from 'react-router-dom';
 import trans from './pngegg.png';
 AWS.config.update({
-  accessKeyId: 'AKIA6HM2F4C6GCXFYV52',
-  secretAccessKey: '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',
+  accessKeyId: 'AKIA6HM2F4C6PWG6E76R',
+  secretAccessKey: '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',
   region: 'us-east-1'
 });
 
