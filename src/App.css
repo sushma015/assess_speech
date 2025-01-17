@@ -1,0 +1,256 @@
+#home{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+  width: 100cqw;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color:aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:100cqw;
+}
+#title{
+  font-size:50px;
+  font-weight:500;
+}
+#desc{
+  margin-top:0;
+  font-size: 30px;
+}
+#left-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:22px;
+  width:60% ;
+  height: 100%;
+  padding-left: 6%;
+}
+#get-start:hover,#rec:hover ,#get:hover,#res:hover,#refresh:hover{
+  transform:scale(1.1);
+  box-shadow: 1px 1px 8px gray;
+}
+#get-start{
+  cursor: pointer;
+  width:22%;
+  height: 8%;
+  border-radius: 33px;
+  margin-top: 4%;
+  font-size: 20px;
+  color: #f0f8ff;
+  border: solid 2px black;
+  background-color:orange;
+}
+#right-home{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mic{
+   height: 50%;
+   width: 80%;
+   padding-right:30%;
+}
+
+#App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 5%;
+  width:100cqw;
+}
+#assess{
+  width:50%;
+  height: 15%;
+  position:relative;
+}
+#custom_text{
+  margin-left: 10%;
+  padding-left: 3%;
+  padding-top: 2%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 80%;
+  height:100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+#speaker{
+  background-color:aliceblue;
+  position: absolute;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+#btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20%;
+}
+#back{
+  font-size: 50px;
+  position: absolute;
+  top:0;
+  left:10px;
+  cursor: pointer;
+}
+#refresh{
+  margin-right:40px;
+}
+#rec,#get,#res,#refresh{
+  height: 40px;
+  width:130px;
+  background-color: orange;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+#res-home{
+ display: flex;
+ flex-direction: column;
+ gap:5%;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ width:100cqw;
+}
+#output{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap:5%;
+}
+#translator { 
+  background-color: transparent;
+   border: none; 
+   cursor: pointer; 
+   position: absolute;
+   top:10px;
+   right:10px;
+ }
+ .container {
+  min-width: 700px;
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01);
+}
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.text-input .to-text {
+  border-radius: 0px;
+  border-left: 1px solid #ccc;
+}
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.text-input textarea::placeholder {
+  color: #b7b6b6;
+}
+.controls,
+li,
+.icons,
+.icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.controls {
+  list-style: none;
+  padding: 12px 15px;
+}
+.controls .row .icons {
+  width: 38%;
+}
+.controls .row .icons i {
+  width: 50px;
+  color: #adadad;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  justify-content: center;
+}
+.controls .row.from .icons {
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+}
+.controls .row.to .icons {
+  padding-left: 15px;
+  border-left: 1px solid #ccc;
+}
+.controls .row select {
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  padding-left: 5px;
+}
+.text-input textarea::-webkit-scrollbar {
+  width: 4px;
+}
+.controls .row select::-webkit-scrollbar {
+  width: 8px;
+}
+.text-input textarea::-webkit-scrollbar-track,
+.controls .row select::-webkit-scrollbar-track {
+  background: #fff;
+}
+.text-input textarea::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 8px;
+}
+.controls .row select::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+.controls .exchange {
+  color: #adadad;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+.controls i:active {
+  transform: scale(0.9);
+}
+.container button {
+  width: 100%;
+  padding: 14px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  background: #ffc107;
+}
